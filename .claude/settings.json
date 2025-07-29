@@ -1,0 +1,27 @@
+{
+  "name": "claude-project-base",
+  "description": "Base template for Claude Code projects",
+  "allowedTools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Edit",
+    "MultiEdit",
+    "LS",
+    "Glob",
+    "Grep",
+    "Task",
+    "TodoWrite",
+    "WebSearch",
+    "WebFetch",
+    "NotebookRead",
+    "NotebookEdit",
+    "ExitPlanMode"
+  ],
+  "additionalInstructions": "Follow the guidelines in CLAUDE.md for this project. Be concise and direct in responses.",
+  "preferredLanguage": "javascript",
+  "testCommand": "npm test",
+  "buildCommand": "npm run build",
+  "lintCommand": "npm run lint",
+  "formatCommand": "npm run format"
+}
